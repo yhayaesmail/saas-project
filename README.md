@@ -1,6 +1,21 @@
+<div align="center">
+
 # Subscription-Based SaaS Backend API
 
-This is the second task of my internship at Sqrock IT. The goal was to build a subscription-based SaaS backend where users can register, subscribe to plans, upgrade or downgrade, and access routes based on their plan.
+![Node.js](https://img.shields.io/badge/Node.js-20-339933?logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-4-000000?logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-Mongoose-47A248?logo=mongodb&logoColor=white)
+![JWT](https://img.shields.io/badge/Auth-JWT-000000?logo=jsonwebtokens&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
+![Joi](https://img.shields.io/badge/Validation-Joi-8A2BE2)
+
+[Live Demo](https://saas-project-sand.vercel.app/) • [Postman Collection](postman_collection.json) • [Report an Issue](#)
+
+</div>
+
+---
+
+This is the third task of my internship at Sqrock IT. The goal was to build a subscription-based SaaS backend where users can register, subscribe to plans, upgrade or downgrade, and access routes based on their plan.
 
 Built with **Node.js, Express, MongoDB (Mongoose) and JWT authentication** — same stack and structure as my first internship project (the Banking System API).
 
@@ -17,6 +32,14 @@ Built with **Node.js, Express, MongoDB (Mongoose) and JWT authentication** — s
   - Premium users → premium content routes
 - Admin role: create/update plans, view all users and subscriptions
 - Plans auto-seeded on server start
+
+## Live Demo
+
+The API is deployed and running here:
+
+**https://saas-project-sand.vercel.app/**
+
+You can explore it directly or use the Postman collection against it.
 
 ## How Access Control Works
 
