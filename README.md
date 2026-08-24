@@ -9,7 +9,7 @@
 ![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
 ![Joi](https://img.shields.io/badge/Validation-Joi-8A2BE2)
 
-[Live Demo](https://saas-project-sand.vercel.app/) • [Postman Collection](postman_collection.json) • [Report an Issue](#)
+[Live Demo](https://saas-project-sand.vercel.app/)
 
 </div>
 
@@ -38,8 +38,6 @@ Built with **Node.js, Express, MongoDB (Mongoose) and JWT authentication** — s
 The API is deployed and running here:
 
 **https://saas-project-sand.vercel.app/**
-
-You can explore it directly or use the Postman collection against it.
 
 ## How Access Control Works
 
@@ -77,16 +75,6 @@ npm run dev
 ```
 
 The API runs at `http://localhost:5001`.
-
-## Testing the API
-
-A ready-made Postman collection is included in this repo:
-
-```
-postman_collection.json
-```
-
-Import it into Postman and try out all endpoints. Signup/login requests save the token automatically.
 
 ## Environment Variables
 
